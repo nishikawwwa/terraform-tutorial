@@ -1,11 +1,11 @@
 variable aws_instance_type {
-  type = string
+  type        = string
   description = "AWSインスタンス種別"
-  default = "t2.micro"
+  default     = "t3.micro"
 }
 
 variable aws_instance_tag_name {
-  type = string
+  type        = string
   description = "AWSインスタンス:Name"
-  default = "terraform-tutorial"
+  default     = "terraform-tutorial"
 }
